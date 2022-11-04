@@ -1,21 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Roboto';
     font-size: 14px;
     color: #212121;
     font-style: normal;
+    width: 1600px;
 }
-
-
-
-
 
 ul {
     list-style: none;
 }
 
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .navigation{
     display: flex;
     align-items: center;
+    height: 80px;
+    background-color: #ffffff;
 }
 
 .logo{
@@ -25,22 +37,25 @@ ul {
     line-height: 31px;
     color: #212121;
     text-decoration: none;
+    margin-right: 93px;
 }
 
 .logo-begin {
     color: #2196F3;
+    
 }
 
 .link{
     display: inline-flex;
     padding: 0;
-    margin-left: 93px;
+
+    
 }
 
 .link-nav{
     color: #212121;
     text-decoration: none;
-    margin: 10px;
+    margin: 50px;
 }
 
 .link-nav:hover,
@@ -68,12 +83,16 @@ ul {
 .hero-section{
     background-color: #2F303A;
     text-align: center;
+    height: 600px;
+    margin-bottom: 94px;
 }
 .hero{
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    color: #FFFFFF;
+    color: #FFFFFF;  
+    
+    padding: 200px 452px 40px;
 }
 
 .hero-button{
@@ -95,10 +114,13 @@ ul {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .information{
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    margin-bottom: 94px;
 }
 .header-text{ 
     font-weight: 400;
@@ -106,6 +128,11 @@ ul {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-right: 30px;
+}
+
+.work{
+    margin-bottom: 94px;
 }
 
 .section-work{
@@ -114,12 +141,20 @@ ul {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
 .work-photo{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
 }
 
+.team-members{
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 
 .section-team{
     font-weight: 700;
@@ -127,10 +162,20 @@ ul {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
 .team{
     display: inline-flex;
+}
+
+.team-member{
+    margin-right: 30px;
+    
+}
+
+.photo{
+    margin-bottom: 30px;
 }
 
 .name-employee{
@@ -138,6 +183,7 @@ ul {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .job-title{
@@ -150,6 +196,11 @@ ul {
 
 .footer{
     background-color: #2F303A;
+    padding-top: 60px;
+}
+
+.footer-logo-item{
+    margin-bottom: 20px;
 }
 
 .footer-logo{
@@ -173,6 +224,11 @@ ul {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
+    margin-bottom: 9px;
+}
+
+.link-footer-mailto{
+    margin-bottom: 9px;
 }
 
 .link-footer{
@@ -182,11 +238,16 @@ ul {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    margin-bottom: 9px;
 }
 
 .link-footer:hover,
 .link-footer:active{
     color: #2196F3;
+}
+
+.portfolio{
+    margin-bottom: 94px;
 }
 
 .button{
@@ -196,15 +257,25 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
 
 .button-link{
     border: none;
+    margin-right: 8px;
+    padding: 6px 22px;
 }
 
 .button-link:hover,
 .button-link:active{
     background: #2196F3;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .list-header{
@@ -213,6 +284,7 @@ ul {
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
+    margin-top: 20px;
 }
 
 .list-text{
@@ -221,6 +293,5 @@ ul {
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-top: 4px;
 }
-
-.

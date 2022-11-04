@@ -12,23 +12,26 @@
 </head>
 
 <body>
+    
     <header>
-        <nav class="navigation">
-        <a class="logo" href="https://brainlab.com" target="_blank">
-        <span class="logo-begin">Web</span>Studio
+        <nav class="container navigation">
+           <div>
+            <a class="logo" href="https://brainlab.com" target="_blank">
+            <span class="logo-begin">Web</span>Studio
         </a>
-    <ul class="link">
-        <li><a class="link-nav" href="#" target="_blank">Студия</a></li>
-        <li><a class="link-nav" href="/portfolio/index.html" target="_blank">Портфолио</a></li>
-        <li><a class="link-nav" href="#" target="_blank">Контакты</a></li>
-    </ul>
-    <ul class="address-link">
-        <li><a class="link-address" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a></li>
-        <li><a class="link-address" href="tel:+380961111111" target="_blank">+380-96-111-11-11</a></li>
-    </ul>
-</nav>
-        
+        <ul class="link">
+            <li><a class="link-nav" href="#" target="_blank">Студия</a></li>
+            <li><a class="link-nav" href="/portfolio/index.html" target="_blank">Портфолио</a></li>
+            <li><a class="link-nav" href="#" target="_blank">Контакты</a></li>
+        </ul>
+        </div>
+            <ul class="address-link">
+                <li><a class="link-address" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a></li>
+                <li><a class="link-address" href="tel:+380961111111" target="_blank">+380-96-111-11-11</a></li>
+            </ul>
+        </nav>  
     </header>
+    
 
 
     <main>
@@ -41,76 +44,86 @@
             
         </section>
         <section>
-            <ul class="information">
-                <li>
-                    <h2 class="header">Внимание к деталям</h2>
-                    <p class="header-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li>
-                    <h2 class="header">Пунктуальность</h2>
-                    <p class="header-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li>
-                    <h2 class="header">Планирование</h2>
-                    <p class="header-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li>
-                    <h2 class="header">Современные технологии</h2>
-                    <p class="header-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="information">
+                    <li>
+                        <h2 class="header">Внимание к деталям</h2>
+                        <p class="header-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li>
+                        <h2 class="header">Пунктуальность</h2>
+                        <p class="header-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li>
+                        <h2 class="header">Планирование</h2>
+                        <p class="header-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li>
+                        <h2 class="header">Современные технологии</h2>
+                        <p class="header-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <h2 class="section-work">Чем мы занимаемся</h2>
-            <ul class="work-photo">
-                <li class="li-img">
-                    <img src="/images/work-photo-1.png" alt="работа за компьютером" width="370">
-                </li>
-                <li>
-                    <img src="/images/work-photo-2.png" alt="работа с телефоном" width="370">
-                </li>
-                <li>
-                    <img src="/images/work-photo-3.png" alt="работа с планшетом" width="370">
-                </li>
-            </ul>
+        <section class="container work">
+                <h2 class="section-work">Чем мы занимаемся</h2>
+                <ul class="work-photo">
+                    <li>
+                        <img src="/images/work-photo-1.png" alt="работа за компьютером" width="370">
+                    </li>
+                    <li>
+                        <img src="/images/work-photo-2.png" alt="работа с телефоном" width="370">
+                    </li>
+                    <li>
+                        <img src="/images/work-photo-3.png" alt="работа с планшетом" width="370">
+                    </li>
+                </ul>
         </section>
-        <section>
-            <h2 class="section-team">Наша команда</h2>
+        <section class="team-members">
+            <div class="container">
+                <h2 class="section-team">Наша команда</h2>
             <ul class="team">
-                <li>
-                    <img src="/images/employee-1.jpg" alt="мужчина" width="270">
+                <li class="team-member">
+                    <img src="/images/employee-1.jpg" alt="мужчина" width="270" class="photo">
                     <p class="name-employee">Игорь Демьяненко</p>
                     <p class="job-title">Product Designer</p>
                 </li>
-                <li>
-                    <img src="/images/employee-2.jpg" alt="женщина" width="270">
+                <li class="team-member">
+                    <img src="/images/employee-2.jpg" alt="женщина" width="270" class="photo">
                     <p class="name-employee">Ольга Репина</p>
                     <p class="job-title">Frontend Developer</p>
                 </li>
-                <li>
-                    <img src="/images/employee-3.jpg" alt="мужчина" width="270">
+                <li class="team-member">
+                    <img src="/images/employee-3.jpg" alt="мужчина" width="270" class="photo">
                     <p class="name-employee">Николай Тарасов</p>
                     <p class="job-title">Marketing</p>
                 </li>
-                <li>
-                    <img src="/images/employee-4.jpg" alt="мужчина" width="270">
+                <li class="team-member">
+                    <img src="/images/employee-4.jpg" alt="мужчина" width="270" class="photo">
                     <p class="name-employee">Михаил Ермаков</p>
                     <p class="job-title">UI Designer</p>
-                     </li>
-            </ul>
+                </li>
+            </ul></div>
+           
         </section>
     </main>
     <footer class="footer">
-        <a href="https://brainlab.com" class="footer-logo" target="_blank">
-        <span class="footer-begin">Web</span>Studio
-        </a>
-        <address>
-            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
-            
-                <a class="link-footer" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a><br>
+        <div class="container">
+           <div class="footer-logo-item">
+                <a href="https://brainlab.com" class="footer-logo" target="_blank">
+                <span class="footer-begin">Web</span>Studio
+                </a>
+            </div>
+            <address>
+                <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+                <div class="link-footer-mailto">
+                    <a class="link-footer" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a>
+                </div>
+                
                 <a class="link-footer" href="tel:+380961111111" target="_blank">+380-96-111-11-11</a>
             
-        </address>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
